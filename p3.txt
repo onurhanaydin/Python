@@ -1,0 +1,17 @@
+#age
+
+below=True
+above=False
+
+#chronic
+
+yes=False
+no=True
+
+#immune
+
+weak=False
+strong=True
+
+risk=(below or above) and (yes or no) and (weak or strong)
+risk
