@@ -1,0 +1,10 @@
+name="Jason"
+password="*Jason1982"
+
+enter_name=input("Please, enter your name: ").strip().title() # to ged rid of spaces and upper-lower case problems
+
+if name==enter_name:
+  print("Hello {}! The password is: {}".format(name, password))
+
+else:
+  print("Hello {}! See you later ".format(enter_name))
