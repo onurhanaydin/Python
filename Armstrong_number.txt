@@ -1,0 +1,26 @@
+# Let we find out if a given number is an "Armstrong Number".
+
+# An n-digit number that is the sum of the nth powers of its digits is called an n-Armstrong number. Examples :
+# 371 = 33 + 73 + 13;
+# 9474 = 94 + 44 + 74 + 44;
+# 93084 = 95 + 35 + 05 + 85 + 45
+
+
+number=input("Please enter a number: ")
+
+n=len(str(number))
+
+i=0
+new=[]
+
+for a in number:  
+  new.append(int(a)**n)
+  i+=1
+
+print(new)
+
+if sum(new)==int(number):
+  print("The number is an Armstrong Number")
+
+else:
+  print("The number is not an Armstrong Number")  
