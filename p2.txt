@@ -1,0 +1,6 @@
+# Write a short Python program that asks the user to enter Celsius temperature (it can be a decimal number), 
+# converts the entered temperature into Fahrenheit degree and prints the result.
+
+c= float(input("Please enter the temperature (C): "))
+f= float((c*1.8)+32)
+print("The air temperature is (F): {}".format(f))
