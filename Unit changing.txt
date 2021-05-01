@@ -1,0 +1,6 @@
+# Write a short Python program that asks the user to enter a distance (it can be a decimal number) in kilometers, 
+# converts the entered distance into miles and prints the result.
+
+km= float(input("Please a distance (km): "))
+m= float((km*1.609))
+print("Distance is (mile): {}".format(m))
